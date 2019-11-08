@@ -9,8 +9,10 @@ h1{
     font-size: 60px;
 }
 
-
-
+img{
+    width: 100px;
+    height:100px;
+}
 button {
     display: block;
     margin: 30px auto 30px auto;
@@ -34,3 +36,12 @@ button {
     color: black;
 }
 
+#sign{
+    font-size: 30px;
+    color: mediumorchid;
+}
+
+#message{
+    font-size: 30px;
+    color: mediumorchid;
+}

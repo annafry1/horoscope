@@ -19,6 +19,7 @@ function onSubmit(){
         checkBday(month, day);
         document.getElementById("sign").innerHTML = signs[signNum - 1];
         document.getElementById("message").innerHTML = name + ", " + messages[signNum - 1];
+        document.getElementById("im").innerHTML = "<img id='image' src=''>";
         document.getElementById("image").src = images[signNum - 1];
     }
 }
